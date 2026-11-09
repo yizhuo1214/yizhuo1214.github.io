@@ -51,6 +51,8 @@ body{font-size:15px}
 .competition .team{font-size:12px;color:#7a8592}
 .prize{font-size:12px}
 footer{font-size:11px;color:#778291}
+footer .shell{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center}
+footer .shell>a{justify-self:end}
 @media(max-width:720px){
  body{font-size:14px}.brand,nav{font-size:12px}
  .hero-copy>p{font-size:14px}.identity .eyebrow{font-size:10px}
