@@ -71,3 +71,6 @@ footer .shell>a{justify-self:end}
  .award-row time,.competition time{font-size:11px}
  .competition{grid-template-columns:58px minmax(0,1fr)}
 }
+
+.publication-note{font-size:12px;line-height:1.6;color:#657080;margin:-10px 0 17px}
+.authors sup,.publication-note sup{font-size:.75em;line-height:0;vertical-align:super}
